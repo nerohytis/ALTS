@@ -1,0 +1,11 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Release\netstandard2.0\EmvLib.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Release\netstandard2.0\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Release\netstandard2.0\EmvLib.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.csprojResolveAssemblyReference.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.Properties.Resources.resources
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.csproj.GenerateResource.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Release\netstandard2.0\EmvLib.pdb

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="SmartCardDriver" Title="SmartCardDriver Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.AttachToAllEvents" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000B.html" LinkGroup="SmartCardDriver">AttachToAllEvents Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.Authenticate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000F.html" LinkGroup="SmartCardDriver">Authenticate Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.CardInserted" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000D.html" LinkGroup="SmartCardDriver">CardInserted Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.Connect" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000008.html" LinkGroup="SmartCardDriver">Connect Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.Disconnect" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000009.html" LinkGroup="SmartCardDriver">Disconnect Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.DisplayEvent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000C.html" LinkGroup="SmartCardDriver">DisplayEvent Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.GetReaderNames" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000012.html" LinkGroup="SmartCardDriver">GetReaderNames Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.HashData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000017.html" LinkGroup="SmartCardDriver">HashData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.MonitorException" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000011.html" LinkGroup="SmartCardDriver">MonitorException Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.NoReaderFound" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000013.html" LinkGroup="SmartCardDriver">NoReaderFound Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.ShowUserInfo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000A.html" LinkGroup="SmartCardDriver">ShowUserInfo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000000.html" LinkGroup="SmartCardDriver">SmartCardDriver Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000018.html" LinkGroup="SmartCardDriver">SmartCardDriver Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000001.html" LinkGroup="SmartCardDriver">SmartCardMonitor Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.StatusChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000010.html" LinkGroup="SmartCardDriver">StatusChanged Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.TrainMode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000006.html" LinkGroup="SmartCardDriver">TrainMode Field</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.TrustDevice" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_000000000000000E_overloads--.html" LinkGroup="SmartCardDriver">TrustDevice Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.TrustDevice" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000015_overloads--.html" LinkGroup="SmartCardDriver">TrustDevice Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.TrustedDevice" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000007.html" LinkGroup="SmartCardDriver">TrustedDevice Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.UnTrustDevice" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000016.html" LinkGroup="SmartCardDriver">UnTrustDevice Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor._contextFactory" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000002.html" LinkGroup="SmartCardDriver">_contextFactory Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor._isOk" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000003.html" LinkGroup="SmartCardDriver">_isOk Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor._isTrusted" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000004.html" LinkGroup="SmartCardDriver">_isTrusted Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor._monitor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000005.html" LinkGroup="SmartCardDriver">_monitor Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="SmartCardDriver.SmartCardMonitor.isTrusted" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:SmartCardDriver.chm::/topic_0000000000000014.html" LinkGroup="SmartCardDriver">isTrusted Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

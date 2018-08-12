@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AltsDemoGui</name>
+    </assembly>
+    <members>
+        <member name="P:AltsDemoGui.ViewModel.AltsStatus">
+            <summary>
+            The status of the security
+            </summary>
+        </member>
+        <member name="P:AltsDemoGui.ViewModel.StatusColor">
+            <summary>
+            The color to display depending on the current AltsStatus
+            </summary>
+        </member>
+        <member name="P:AltsDemoGui.ViewModel.LogText">
+            <summary>
+            Logger text to display to the user
+            </summary>
+        </member>
+        <member name="T:AltsDemoGui.Status">
+            <summary>
+            Availiable ALTS mechanism status. Keeps user interface consistent with the overall system status
+            </summary>
+        </member>
+        <member name="F:AltsDemoGui.Status.NotSet">
+            <summary>
+            Mechanism is not initialized
+            </summary>
+        </member>
+        <member name="F:AltsDemoGui.Status.Locked">
+            <summary>
+            Mechanism is locked
+            </summary>
+        </member>
+        <member name="F:AltsDemoGui.Status.Unlocked">
+            <summary>
+            Mechanism is unlocked
+            </summary>
+        </member>
+        <member name="F:AltsDemoGui.Status.Training">
+            <summary>
+            Training in progress
+            </summary>
+        </member>
+        <member name="T:AltsDemoGui.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:AltsDemoGui.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:AltsDemoGui.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:AltsDemoGui.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.Button_Click_Connect(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when connect button is pushed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.Button_Click_DisConnect(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when disconnect button is pushed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.Button_Click_Learn(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Event called when TrustDevice button is pushed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.okCallBack(InterfaceAltSecurity.AltsInfo)">
+            <summary>
+            Callback called by the InterfaceAltSecurity interface implementation
+            </summary>
+            <param name="result">The authentication info provided to the callback</param>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.trustCallBack(InterfaceAltSecurity.AltsInfo)">
+            <summary>
+             Callback called by the InterfaceAltSecurity interface implementation
+            </summary>
+            <param name="result">The authentication info provided to the callback</param>
+        </member>
+        <member name="M:AltsDemoGui.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AltsDemoGui.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AltsDemoGui.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AltsDemoGui.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

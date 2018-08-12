@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmvLib</name>
+    </assembly>
+    <members>
+        <member name="T:EmvLib.CAKeyElement">
+            <summary>
+            Represents a CA key element
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.RID">
+            <summary>
+            Emv Application AID
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.Index">
+            <summary>
+            CA key index
+            Δείκτης κλειδιού CA
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.CAKey">
+            <summary>
+            CaKey
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.Exponent">
+            <summary>
+            Ca Key exponent
+            Εκθέτης κλειδιού Ca
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.SHA1Hash">
+            <summary>
+            SHA1 hash of the certificate
+            SHA1 hash του πιστοποιητικού
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeyElement.Expiry">
+            <summary>
+            Certificate eχpiry date
+            Ημερομηνία λήξης πιστοποιητικού
+            </summary>
+        </member>
+        <member name="T:EmvLib.CAKeys">
+            <summary>
+            Class that holds the known CA keys from file cakeys.xml
+            </summary>
+        </member>
+        <member name="P:EmvLib.CAKeys.CaKeys">
+            <summary>
+            <para>Ca keys array.</para>
+            <para>[System.Xml.Serialization is used to parse the xml file cakeys.xml</para>
+            </summary>
+        </member>
+        <member name="T:EmvLib.CaKeyStore">
+            <summary>
+            Helper class that acting as a key storage manager.
+            </summary>
+        </member>
+        <member name="M:EmvLib.CaKeyStore.GetCaKey(System.String,System.String)">
+            <summary>
+            Retreives a CaKey from cakeys.xml
+            </summary>
+            <param name="rid"></param>
+            <param name="index"></param>
+            <returns>The CaKey object. Γίνεται δημιουργία ενός object CaKey, το οποίο επιστρέφεται. </returns>
+        </member>
+        <member name="T:EmvLib.CaKey">
+            <summary>
+            Το αντικείμενο περιέχει τις πληροφορίες που χρειάζονται για να γίνει Validate το certificate της κάρτας.
+            </summary>
+        </member>
+        <member name="T:EmvLib.EmvCertificate">
+            <summary>
+            Object representation of an emv certificate according to EmvCo
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:EmvLib.EmvCertificate.#ctor(System.String,System.String,EmvLib.CertificateType)" -->
+        <member name="M:EmvLib.EmvCertificate.isExpOk">
+            <summary>
+            Certificate expiry check
+            </summary>
+            <returns>
+            True if the certificate is not expired and is according to the format MMyy
+            </returns>
+            <example>0918</example>
+        </member>
+        <member name="M:EmvLib.EmvCertificate.GetHashData">
+            <summary>
+            Retreives the Hash data from the certificate
+            </summary>
+            <returns>
+            Hash data
+            </returns>
+        </member>
+        <member name="T:EmvLib.EmvConstants">
+            <summary>
+            Emv Constants used during a transaction.
+            </summary>
+        </member>
+        <member name="M:EmvLib.EmvConstants.ReadPdolData">
+            <summary>
+            Parses the terminal-data-elements.csv and stores the known tags in Dictionary PdolTags
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.UniversalClass">
+            <summary>
+            Universal class ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ApplicationClass">
+            <summary>
+            Universal class ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ContextSpecificClass">
+            <summary>
+            Universal class ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.PrivateClass">
+            <summary>
+            Universal class ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.PrimitiveDataObject">
+            <summary>
+            Primitive Data Object ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ConstructedDataObject">
+            <summary>
+            Constructed Data Object ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.SeeSubsequentBytes">
+            <summary>
+            See Sub sequentBytes ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.PSE">
+            <summary>
+            PSE Application Name
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.PPSE">
+            <summary>
+            PPSE Application Name
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.SELECT_APDU_HEADER">
+            <summary>
+            SELECT COMMAND ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.SW_SELECT_OK">
+            <summary>
+            Responce ok ISO 7816 part 4
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.PdolTags">
+            <summary>
+            Dictionary to hold the pdol tags and values
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.AID_LIST_BYTES">
+            <summary>
+            List of known Emv Applications
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.AID_LIST">
+            <summary>
+            List of known Emv Applications in string format
+            </summary>
+        </member>
+        <member name="T:EmvLib.EmvConstants.AID">
+            <summary>
+            EMV AID struct
+            </summary>
+        </member>
+        <member name="T:EmvLib.EmvConstants.ResponceType">
+            <summary>
+            List of reponce types
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ResponceType.Select">
+            <summary>
+            Select responce type
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ResponceType.Gpo">
+            <summary>
+            Get processing options reponse type
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ResponceType.ReaderRecord">
+            <summary>
+            Read record reponse type
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.ResponceType.All">
+            <summary>
+            Data from all reponse types
+            </summary>
+        </member>
+        <member name="T:EmvLib.EmvConstants.GpoTemplateFormat">
+            <summary>
+            Emv Template format.
+            <para>Emv book 3. Table 33: Data Elements Dictionary</para>
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.GpoTemplateFormat.Format1">
+            <summary>
+            Response Message Template Format 1
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.GpoTemplateFormat.Format2">
+            <summary>
+            Response Message Template Format 2
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.APDU_RES_DESCRIPTION">
+            <summary>
+            Emv known responces
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.tags">
+            <summary>
+            Emv known tags
+            </summary>
+        </member>
+        <member name="T:EmvLib.EmvConstants.EmvOfflineAuthType">
+            <summary>
+            Emv offline types
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.EmvOfflineAuthType.Sda">
+            <summary>
+            Static data authentication
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.EmvOfflineAuthType.Dda">
+            <summary>
+            Dynamic data authentication
+            </summary>
+        </member>
+        <member name="F:EmvLib.EmvConstants.EmvOfflineAuthType.Cda">
+            <summary>
+            Combined data authentication
+            </summary>
+        </member>
+        <member name="M:EmvLib.EmvConstants.getTagDescription(System.String)">
+            <summary>
+            Retreives the tag description for the given tag name
+            </summary>
+            <param name="tagname">The tag name</param>
+            <returns>The tag Description or "Unknown EmvTag" </returns>
+        </member>
+        <member name="T:EmvLib.CardNotSupportedExceprion">
+            <summary>
+            <para>Exception thrown when the card is not supported by the current version of the application</para>
+            </summary>
+        </member>
+        <member name="T:EmvLib.CertificateType">
+            <summary>
+            The type of the certificate
+            </summary>
+        </member>
+        <member name="F:EmvLib.CertificateType.CA">
+            <summary>
+            Certification authority certificate
+            </summary>
+        </member>
+        <member name="F:EmvLib.CertificateType.ICC">
+            <summary>
+            Issuer certificate
+            </summary>
+        </member>
+        <member name="T:EmvLib.OfflineAuth">
+            <summary>
+            Class representing the Offline authorization of an emv smart card
+            </summary>
+        </member>
+        <member name="F:EmvLib.OfflineAuth._app">
+            <summary>
+            SmartApplication storage space
+            </summary>
+        </member>
+        <member name="F:EmvLib.OfflineAuth._caKey">
+            <summary>
+            Certification authority key
+            </summary>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.#ctor(EmvLib.SmartApplication)">
+            <summary>
+            Constractor storing the SmartApplication for subsequent use
+            </summary>
+            <param name="app">SmartApplication initialized by the caller</param>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.doCdaAuth">
+            <summary>
+            Half implemeted. Falls back to DDA
+            </summary>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.doDdaAuth">
+            <summary>
+            Validates card using Dynamic data Authentication
+            </summary>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.BasicAuth">
+            <summary>
+            The offline authentication implementation.(Currently DDA only)
+            </summary>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.DecryptRsa(System.String,System.String)">
+            <summary>
+            DecryptRsa overloading of DecryptRsa(string data, string exponent, string key)
+            </summary>
+            <param name="data">The data to decrypt</param>
+            <param name="exponent">The key exponent to use</param>
+            <returns>The decrypted data</returns>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.DecryptRsa(System.String,System.String,System.String)">
+            <summary>
+            Decrypt data using RSA Asymmetric Block Cipher
+            </summary>
+            <param name="data">The data to decrypt</param>
+            <param name="exponent">The key exponent to use</param>
+            <param name="key">The RSA key to use</param>
+            <returns>The decrypted data</returns>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.GetSha1(System.String)">
+            <summary>
+            Compute SHA1 hash for the given input data
+            </summary>
+            <param name="input"></param>
+            <returns>Hash value</returns>
+        </member>
+        <member name="M:EmvLib.OfflineAuth.validateCertificate(System.String,System.String,EmvLib.CertificateType)">
+            <summary>
+            Validates the certificate based on EMVCO rules
+            </summary>
+            <param name="certificate">The certificate to validate</param>
+            <param name="remainder">The key remainder</param>
+            <param name="type">The certificate Type</param>
+            <returns></returns>
+        </member>
+        <member name="P:EmvLib.OfflineAuth.AuthType">
+            <summary>
+            Retreives the type of authentication to use
+            </summary>
+        </member>
+        <member name="T:EmvLib.SCardReaderExtensions">
+            <summary>
+            Extends Trasmit command writing a log output to System.Diagnostics.Debug.WriteLine when Compiler Header DEBUG is true
+            </summary>
+        </member>
+        <member name="M:EmvLib.SCardReaderExtensions.TransmitWithLog(PCSC.Iso7816.IsoReader,PCSC.Iso7816.CommandApdu)">
+            <summary>
+            The implementation of transmit with log
+            </summary>
+            <param name="reader">Reader Name</param>
+            <param name="command">APDU command</param>
+            <returns></returns>
+        </member>
+        <member name="T:EmvLib.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:EmvLib.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:EmvLib.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:EmvLib.Properties.Resources.cakeys">
+            <summary>
+              Looks up a localized string similar to &lt;CAKeys&gt;&lt;CAKeyElement&gt;&lt;RID&gt;A000000004&lt;/RID&gt;&lt;Index&gt;00&lt;/Index&gt;&lt;CAKey&gt;9E15214212F6308ACA78B80BD986AC287516846C8D548A9ED0A42E7D997C902C3E122D1B9DC30995F4E25C75DD7EE0A0CE293B8CC02B977278EF256D761194924764942FE714FA02E4D57F282BA3B2B62C9E38EF6517823F2CA831BDDF6D363D&lt;/CAKey&gt;&lt;Exponent&gt;03&lt;/Exponent&gt;&lt;SHA1Hash&gt;&lt;/SHA1Hash&gt;&lt;Expiry&gt;&lt;/Expiry&gt;&lt;/CAKeyElement&gt;&lt;CAKeyElement&gt;&lt;RID&gt;A000000003&lt;/RID&gt;&lt;Index&gt;01&lt;/Index&gt;&lt;CAKey&gt;C696034213D7D8546984579D1D0F0EA519CFF8DEFFC429354CF3A871A6F7183F1228DA5C7470C055387100CB935A712C4E2864DF5D64BA [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:EmvLib.Properties.Resources.terminal_data_elements">
+             <summary>
+               Looks up a localized string similar to 5F 2A,00 00 00 00 00,Transaction Currency Code,09 75
+            5F 2A,A0 00 00 06 15,Transaction Currency Code,09 78
+            5F 36,00 00 00 00 00,Transaction Currency Exponent,02
+            71,00 00 00 00 00,Issuer Script Template 1,
+            72,00 00 00 00 00,Issuer Script Template 2,
+            81,00 00 00 00 00,Amount Authorised Binary,00 00 00 11
+            81,A0 00 00 00 04,Profile ID,01
+            83,00 00 00 00 00,Command Template,00 00 00 00
+            86,00 00 00 00 00,Issuer Script Command,
+            89,00 00 00 00 00,Authorisation Code,
+            8A,00 00 00 00 00,Authorisation Response Code,30 30 [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="T:EmvLib.SmartApplication">
+            <summary>
+            Object representation of Smart card Application
+            </summary>
+        </member>
+        <member name="F:EmvLib.SmartApplication._reader">
+            <summary>
+            The smart card reader
+            </summary>
+        </member>
+        <member name="M:EmvLib.SmartApplication.#ctor(System.Byte[],PCSC.Iso7816.IsoReader)">
+            <summary>
+            Constractor for the SmartApplication object
+            </summary>
+            <param name="selectresponce">The reponce of the card following the SELECT application command </param>
+            <param name="reader">The IsoReader communicating with the application/card </param>
+        </member>
+        <member name="M:EmvLib.SmartApplication.SetGpo(System.Byte[])">
+            <summary>
+            Prepares the Get processing options command
+            </summary>
+            <param name="gpodata"></param>
+        </member>
+        <member name="P:EmvLib.SmartApplication.AID">
+            <summary>
+            The application Identifier in bytes
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.RES_SELECT">
+            <summary>
+            The reponce of the select command
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.RES_GPO">
+            <summary>
+            The reponce of the GPO command
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.TLV_SELECT">
+            <summary>
+            The reponce of the select command in Tag-Length-Value format
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.TLV_GPO">
+            <summary>
+            The reponce of the GPO command in Tag-Length-Value format
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.EmvRecords">
+            <summary>
+            List of Emv records in the card
+            </summary>
+        </member>
+        <member name="P:EmvLib.SmartApplication.GpoTemplateFormat">
+            <summary>
+            The Response Message Template Format of the GPO responce. 
+            </summary>
+        </member>
+        <member name="M:EmvLib.SmartApplication.SelectApplication">
+            <summary>
+            Issues a select Application command
+            </summary>
+        </member>
+        <member name="M:EmvLib.SmartApplication.GetProcessingOptions">
+            <summary>
+            Issues a GPO command. 
+            </summary>
+            <remarks>Pdol data , reponce parsing and storing are handled internaly</remarks>
+        </member>
+        <member name="M:EmvLib.SmartApplication.ReadRecords">
+            <summary>
+            Issue a read-record command for all records included in the GPO Responce, Tag AFL(Application file locator)
+            </summary>
+        </member>
+        <member name="M:EmvLib.SmartApplication.GetTagValue(EmvLib.EmvConstants.ResponceType,System.String)">
+            <summary>
+            Retreive the value of the gigen tag
+            </summary>
+            <param name="type">Where to look in the card data</param>
+            <param name="tagname">The tag name</param>
+            <returns>The tag data</returns>
+        </member>
+        <member name="M:EmvLib.SmartApplication._GetTagValue(EmvLib.EmvConstants.ResponceType,System.String)">
+            <summary>
+            Handles the retreival of the GetTagValue
+            </summary>
+            <see cref="M:EmvLib.SmartApplication.GetTagValue(EmvLib.EmvConstants.ResponceType,System.String)"/>
+            <param name="type"></param>
+            <param name="tagname"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmvLib.SmartApplication.GetOfflineTagValues">
+            <summary>
+            Retreive the values used for the Offline Auth
+            </summary>
+            <returns>The values concatenated. Sda tag list included, if any</returns>
+        </member>
+        <member name="M:EmvLib.SmartApplication.Dump">
+            <summary>
+            String representation of the class
+            </summary>
+            <returns>The representation within a StringBuilder class</returns>
+        </member>
+    </members>
+</doc>

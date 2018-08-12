@@ -1,0 +1,17 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\SmartCardDriver.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\SmartCardDriver.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\InterfaceAltSecurity.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\EmvLib.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\InterfaceAltSecurity.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.csproj.CopyComplete
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\SmartCardDriver.csprojAssemblyReference.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\SmartCardDriver.xml
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\EmvLib.xml
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\InterfaceAltSecurity.xml

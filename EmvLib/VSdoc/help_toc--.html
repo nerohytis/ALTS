@@ -1,0 +1,1664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>Menu</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+<style>
+html { font-family:sans-serif; background-color:#ffffff; font-size:75%;}
+a { text-decoration:none; color:rgb(0,51,102) }
+.header a { color:#000!important }
+a:focus {background-color: #CCCCCC;}
+.item { border:solid 0px #000; padding:0.25em; margin-left:1em }
+.header, .leaf { cursor:pointer; padding-left:19px; min-height:18px; line-height:18px; white-space:nowrap;}
+.closed { background:url(bookC.gif) no-repeat }
+.open { background:url(bookE.gif) no-repeat }
+.leaf { background:url(leaf.gif) no-repeat }
+</style>
+
+<script>
+function toggle(idsub,elhead) {
+    var elsub = document.getElementById(idsub);
+    if(elsub.style.display=="block")
+        elsub.style.display = "none";
+    else
+        elsub.style.display="block";
+        
+    if(elhead.className=="header open")
+        elhead.className = "header closed";
+    else
+        elhead.className = "header open";
+}
+
+function expandLinkInToc(url) {
+	var link = findLink(url);
+	//alert(link);
+	//alert(link.innerHTML);
+	if(!isElementVisible(link)) {
+		expandElementAndParents(link);
+	}
+	link.scrollIntoView(true);
+	link.focus();
+}
+
+function expandElementAndParents(elm) {
+	if(elm.style) {
+		if(elm.style.display=="none") {
+			//elm is container with subtopics
+			elm.style.display="block";
+			// process also chapter header
+			var id = elm.getAttribute("id");
+			id = id.substring(1);
+			var elHead = document.getElementById(id);
+			if(elHead.className=="header closed") {
+				elHead.className = "header open";
+			}
+		}
+	}
+	// process parents
+	if (elm.parentNode) {
+		expandElementAndParents(elm.parentNode);
+	}
+}
+
+function findLink(url) {
+	var links = document.links;
+	var i;
+	for (i=0; i<links.length; i++) {
+		if (links[i].href == url) {
+			return links[i];
+		}		
+	}
+	return null;
+} 
+
+function isElementVisible(elm) {
+	if(elm.style) {
+		if(elm.style.display == "none") {
+			return false;
+		}
+	}
+	if (elm.parentNode) {
+		return isElementVisible(elm.parentNode);
+	} else {
+		return true;
+	}
+}
+</script>
+
+</head>
+
+<body>
+    
+						 		<div id="1" class="header closed" onclick="toggle('c1',this)">
+   
+  		<a href="frlrfemvlib_referenceCustomTopic.html" target="vbdocright">EmvLib Reference</a>
+ 
+		</div>
+     <div id="c1" class="item" style="display:none">
+		
+     
+
+       <div id="2" class="header closed" onclick="toggle('c2',this)">
+    <a href="frlrfEmvLib.html" target="vbdocright">EmvLib Namespace</a>
+    </div>
+    <div id="c2" class="item" style="display:none">
+		
+
+						    <div id="3" class="header closed" onclick="toggle('c3',this)">
+    <a href="frlrfEmvLibAflEntryClassTopic.html" target="vbdocright">AflEntry Class</a>
+    </div>
+    <div id="c3" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="4" class="header closed" onclick="toggle('c4',this)">
+    <a href="frlrfEmvLibAflEntryClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c4" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibAflEntryClassEndRecordTopic.html" target="vbdocright">EndRecord Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibAflEntryClassOfflineRecordsTopic.html" target="vbdocright">OfflineRecords Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibAflEntryClassSfiTopic.html" target="vbdocright">Sfi Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibAflEntryClassStartRecordTopic.html" target="vbdocright">StartRecord Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="5" class="header closed" onclick="toggle('c5',this)">
+    <a href="frlrfEmvLibAflResultClassTopic.html" target="vbdocright">AflResult Class</a>
+    </div>
+    <div id="c5" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="6" class="header closed" onclick="toggle('c6',this)">
+    <a href="frlrfEmvLibAflResultClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c6" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibAflResultClassAflEntriesTopic.html" target="vbdocright">AflEntries Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="7" class="header closed" onclick="toggle('c7',this)">
+    <a href="frlrfEmvLibCAKeyElementClassTopic.html" target="vbdocright">CAKeyElement Class</a>
+    </div>
+    <div id="c7" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="8" class="header closed" onclick="toggle('c8',this)">
+    <a href="frlrfEmvLibCAKeyElementClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c8" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassCAKeyTopic.html" target="vbdocright">CAKey Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassExpiryTopic.html" target="vbdocright">Expiry Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassExponentTopic.html" target="vbdocright">Exponent Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassIndexTopic.html" target="vbdocright">Index Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassRIDTopic.html" target="vbdocright">RID Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeyElementClassSHA1HashTopic.html" target="vbdocright">SHA1Hash Property</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="9" class="header closed" onclick="toggle('c9',this)">
+    <a href="frlrfEmvLibCAKeysClassTopic.html" target="vbdocright">CAKeys Class</a>
+    </div>
+    <div id="c9" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="10" class="header closed" onclick="toggle('c10',this)">
+    <a href="frlrfEmvLibCAKeysClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c10" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibCAKeysClassCaKeysTopic.html" target="vbdocright">CaKeys Property</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="11" class="header closed" onclick="toggle('c11',this)">
+    <a href="frlrfEmvLibCaKeyClassTopic.html" target="vbdocright">CaKey Class</a>
+    </div>
+    <div id="c11" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="12" class="header closed" onclick="toggle('c12',this)">
+    <a href="frlrfEmvLibCaKeyClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c12" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassExpiryTopic.html" target="vbdocright">Expiry Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassExponentTopic.html" target="vbdocright">Exponent Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassIndexTopic.html" target="vbdocright">Index Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassKeyTopic.html" target="vbdocright">Key Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassRidTopic.html" target="vbdocright">Rid Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyClassSHA1HashTopic.html" target="vbdocright">SHA1Hash Property</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="13" class="header closed" onclick="toggle('c13',this)">
+    <a href="frlrfEmvLibCaKeyStoreClassTopic.html" target="vbdocright">CaKeyStore Class</a>
+    </div>
+    <div id="c13" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="14" class="header closed" onclick="toggle('c14',this)">
+    <a href="frlrfEmvLibCaKeyStoreClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c14" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibCaKeyStoreClassGetCaKeyTopic.html" target="vbdocright">GetCaKey Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="15" class="header closed" onclick="toggle('c15',this)">
+    <a href="frlrfEmvLibCardNotSupportedExceprionClassTopic.html" target="vbdocright">CardNotSupportedExceprion Class</a>
+    </div>
+    <div id="c15" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="16" class="header closed" onclick="toggle('c16',this)">
+    <a href="frlrfEmvLibCardNotSupportedExceprionClassctorTopic_overloads--.html" target="vbdocright">CardNotSupportedExceprion Constructor</a>
+    </div>
+    <div id="c16" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="frlrfEmvLibCardNotSupportedExceprionClassctorTopic4.html" target="vbdocright">CardNotSupportedExceprion(SerializationInfo, StreamingContext) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibCardNotSupportedExceprionClassctorTopic.html" target="vbdocright">CardNotSupportedExceprion() Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibCardNotSupportedExceprionClassctorTopic2.html" target="vbdocright">CardNotSupportedExceprion(string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibCardNotSupportedExceprionClassctorTopic3.html" target="vbdocright">CardNotSupportedExceprion(string, Exception) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="17" class="header closed" onclick="toggle('c17',this)">
+    <a href="frlrfEmvLibEmvConstantsClassTopic.html" target="vbdocright">EmvConstants Class</a>
+    </div>
+    <div id="c17" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+						    <div id="18" class="header closed" onclick="toggle('c18',this)">
+    <a href="frlrfEmvLibEmvConstantsAIDClassTopic.html" target="vbdocright">AID Structure</a>
+    </div>
+    <div id="c18" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="19" class="header closed" onclick="toggle('c19',this)">
+    <a href="frlrfEmvLibEmvConstantsAIDClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c19" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsAIDClassAID_MASTERCARD_CLASSICTopic.html" target="vbdocright">AID_MASTERCARD_CLASSIC Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsAIDClassAID_VISA_CLASSICTopic.html" target="vbdocright">AID_VISA_CLASSIC Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsAIDClassAID_VISA_ELECTRONTopic.html" target="vbdocright">AID_VISA_ELECTRON Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+		
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsEmvOfflineAuthTypeClassTopic.html" target="vbdocright">EmvOfflineAuthType Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsGpoTemplateFormatClassTopic.html" target="vbdocright">GpoTemplateFormat Enumeration</a></div>
+  
+
+				  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsResponceTypeClassTopic.html" target="vbdocright">ResponceType Enumeration</a></div>
+  
+
+		
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassctorTopic.html" target="vbdocright">EmvConstants Constructor</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		    <div id="20" class="header closed" onclick="toggle('c20',this)">
+    <a href="frlrfEmvLibEmvConstantsClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c20" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassReadPdolDataTopic.html" target="vbdocright">ReadPdolData Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassgetTagDescriptionTopic.html" target="vbdocright">getTagDescription Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="21" class="header closed" onclick="toggle('c21',this)">
+    <a href="frlrfEmvLibEmvConstantsClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c21" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassAID_LISTTopic.html" target="vbdocright">AID_LIST Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassAID_LIST_BYTESTopic.html" target="vbdocright">AID_LIST_BYTES Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassAPDU_RES_DESCRIPTIONTopic.html" target="vbdocright">APDU_RES_DESCRIPTION Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassApplicationClassTopic.html" target="vbdocright">ApplicationClass Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassConstructedDataObjectTopic.html" target="vbdocright">ConstructedDataObject Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassContextSpecificClassTopic.html" target="vbdocright">ContextSpecificClass Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassPPSETopic.html" target="vbdocright">PPSE Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassPSETopic.html" target="vbdocright">PSE Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassPdolTagsTopic.html" target="vbdocright">PdolTags Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassPrimitiveDataObjectTopic.html" target="vbdocright">PrimitiveDataObject Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassPrivateClassTopic.html" target="vbdocright">PrivateClass Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassSELECT_APDU_HEADERTopic.html" target="vbdocright">SELECT_APDU_HEADER Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassSW_SELECT_OKTopic.html" target="vbdocright">SW_SELECT_OK Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassSeeSubsequentBytesTopic.html" target="vbdocright">SeeSubsequentBytes Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClassUniversalClassTopic.html" target="vbdocright">UniversalClass Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibEmvConstantsClasstagsTopic.html" target="vbdocright">tags Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="22" class="header closed" onclick="toggle('c22',this)">
+    <a href="frlrfEmvLibOfflineAuthClassTopic.html" target="vbdocright">OfflineAuth Class</a>
+    </div>
+    <div id="c22" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassctorTopic.html" target="vbdocright">OfflineAuth Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="23" class="header closed" onclick="toggle('c23',this)">
+    <a href="frlrfEmvLibOfflineAuthClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c23" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassAuthTypeTopic.html" target="vbdocright">AuthType Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="24" class="header closed" onclick="toggle('c24',this)">
+    <a href="frlrfEmvLibOfflineAuthClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c24" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassBasicAuthTopic.html" target="vbdocright">BasicAuth Method</a></div>
+  
+
+						      <div id="25" class="header closed" onclick="toggle('c25',this)">
+    <a href="frlrfEmvLibOfflineAuthClassDecryptRsaTopic_overloads--.html" target="vbdocright">DecryptRsa Method</a>
+    </div>
+    <div id="c25" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="frlrfEmvLibOfflineAuthClassDecryptRsaTopic.html" target="vbdocright">DecryptRsa(string, string) Method</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibOfflineAuthClassDecryptRsaTopic2.html" target="vbdocright">DecryptRsa(string, string, string) Method</a></div>
+		              
+	
+	</div>         
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassGetSha1Topic.html" target="vbdocright">GetSha1 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassdoCdaAuthTopic.html" target="vbdocright">doCdaAuth Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassdoDdaAuthTopic.html" target="vbdocright">doDdaAuth Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassdoSdaAuthTopic.html" target="vbdocright">doSdaAuth Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClassvalidateCertificateTopic.html" target="vbdocright">validateCertificate Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="26" class="header closed" onclick="toggle('c26',this)">
+    <a href="frlrfEmvLibOfflineAuthClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c26" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClass_appTopic.html" target="vbdocright">_app Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibOfflineAuthClass_caKeyTopic.html" target="vbdocright">_caKey Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="27" class="header closed" onclick="toggle('c27',this)">
+    <a href="frlrfEmvLibSCardReaderExtensionsClassTopic.html" target="vbdocright">SCardReaderExtensions Class</a>
+    </div>
+    <div id="c27" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="28" class="header closed" onclick="toggle('c28',this)">
+    <a href="frlrfEmvLibSCardReaderExtensionsClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c28" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSCardReaderExtensionsClassTransmitWithLogTopic.html" target="vbdocright">TransmitWithLog Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="29" class="header closed" onclick="toggle('c29',this)">
+    <a href="frlrfEmvLibSmartApplicationClassTopic.html" target="vbdocright">SmartApplication Class</a>
+    </div>
+    <div id="c29" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassctorTopic.html" target="vbdocright">SmartApplication Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="30" class="header closed" onclick="toggle('c30',this)">
+    <a href="frlrfEmvLibSmartApplicationClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c30" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassAIDTopic.html" target="vbdocright">AID Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassEmvRecordsTopic.html" target="vbdocright">EmvRecords Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassGpoTemplateFormatTopic.html" target="vbdocright">GpoTemplateFormat Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassRES_GPOTopic.html" target="vbdocright">RES_GPO Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassRES_SELECTTopic.html" target="vbdocright">RES_SELECT Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassTLV_GPOTopic.html" target="vbdocright">TLV_GPO Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassTLV_SELECTTopic.html" target="vbdocright">TLV_SELECT Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="31" class="header closed" onclick="toggle('c31',this)">
+    <a href="frlrfEmvLibSmartApplicationClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c31" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassDumpTopic.html" target="vbdocright">Dump Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassGetOfflineTagValuesTopic.html" target="vbdocright">GetOfflineTagValues Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassGetProcessingOptionsTopic.html" target="vbdocright">GetProcessingOptions Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassGetTagValueTopic.html" target="vbdocright">GetTagValue Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassReadRecordsTopic.html" target="vbdocright">ReadRecords Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassSelectApplicationTopic.html" target="vbdocright">SelectApplication Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClassSetGpoTopic.html" target="vbdocright">SetGpo Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClass_GetTagValueTopic.html" target="vbdocright">_GetTagValue Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="32" class="header closed" onclick="toggle('c32',this)">
+    <a href="frlrfEmvLibSmartApplicationClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c32" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartApplicationClass_readerTopic.html" target="vbdocright">_reader Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="33" class="header closed" onclick="toggle('c33',this)">
+    <a href="frlrfEmvLibSmartCardClassTopic.html" target="vbdocright">SmartCard Class</a>
+    </div>
+    <div id="c33" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						      <div id="34" class="header closed" onclick="toggle('c34',this)">
+    <a href="frlrfEmvLibSmartCardClassctorTopic_overloads--.html" target="vbdocright">SmartCard Constructor</a>
+    </div>
+    <div id="c34" class="item" style="display:none">
+	
+
+			
+		<div class="leaf"><a href="frlrfEmvLibSmartCardClassctorTopic3.html" target="vbdocright">SmartCard(IsoReader) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibSmartCardClassctorTopic2.html" target="vbdocright">SmartCard(SCardContext, string) Constructor</a></div>
+		              
+			
+		<div class="leaf"><a href="frlrfEmvLibSmartCardClassctorTopic.html" target="vbdocright">SmartCard(string) Constructor</a></div>
+		              
+	
+	</div>         
+  
+
+		
+		
+
+
+		    <div id="35" class="header closed" onclick="toggle('c35',this)">
+    <a href="frlrfEmvLibSmartCardClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c35" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClassApplicationsTopic.html" target="vbdocright">Applications Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="36" class="header closed" onclick="toggle('c36',this)">
+    <a href="frlrfEmvLibSmartCardClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c36" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClassDisposeTopic.html" target="vbdocright">Dispose Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClassGetAIDsTopic.html" target="vbdocright">GetAIDs Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClassGetSingleApplicationTopic.html" target="vbdocright">GetSingleApplication Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		    <div id="37" class="header closed" onclick="toggle('c37',this)">
+    <a href="frlrfEmvLibSmartCardClassTopic_vars--.html" target="vbdocright">Πεδία</a>
+    </div>
+    <div id="c37" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClass_contextTopic.html" target="vbdocright">_context Field</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartCardClassreaderTopic.html" target="vbdocright">reader Field</a></div>
+  
+
+			</div>
+		
+
+
+</div>
+
+
+				    <div id="38" class="header closed" onclick="toggle('c38',this)">
+    <a href="frlrfEmvLibSmartEmvRecordClassTopic.html" target="vbdocright">SmartEmvRecord Class</a>
+    </div>
+    <div id="c38" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassctorTopic.html" target="vbdocright">SmartEmvRecord Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="39" class="header closed" onclick="toggle('c39',this)">
+    <a href="frlrfEmvLibSmartEmvRecordClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c39" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassIsOfflineTopic.html" target="vbdocright">IsOffline Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassRES_READRECORDTopic.html" target="vbdocright">RES_READRECORD Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassRecordTopic.html" target="vbdocright">Record Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassSfiTopic.html" target="vbdocright">Sfi Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartEmvRecordClassTLV_READRECORDTopic.html" target="vbdocright">TLV_READRECORD Property</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="40" class="header closed" onclick="toggle('c40',this)">
+    <a href="frlrfEmvLibSmartTagClassTopic.html" target="vbdocright">SmartTag Class</a>
+    </div>
+    <div id="c40" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassctorTopic.html" target="vbdocright">SmartTag Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="41" class="header closed" onclick="toggle('c41',this)">
+    <a href="frlrfEmvLibSmartTagClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c41" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassChildrenTopic.html" target="vbdocright">Children Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassDataLenTopic.html" target="vbdocright">DataLen Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassDescriptionTopic.html" target="vbdocright">Description Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassHasChildrenTopic.html" target="vbdocright">HasChildren Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassHasParentTopic.html" target="vbdocright">HasParent Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassIsConstructedTopic.html" target="vbdocright">IsConstructed Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassParentTopic.html" target="vbdocright">Parent Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassTagStringNameTopic.html" target="vbdocright">TagStringName Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassTagValueTopic.html" target="vbdocright">TagValue Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassTagnameTopic.html" target="vbdocright">Tagname Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTagClassTlvDataTopic.html" target="vbdocright">TlvData Property</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="42" class="header closed" onclick="toggle('c42',this)">
+    <a href="frlrfEmvLibSmartTlvClassTopic.html" target="vbdocright">SmartTlv Class</a>
+    </div>
+    <div id="c42" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClassctorTopic.html" target="vbdocright">SmartTlv Constructor</a></div>
+  
+
+		
+		
+
+
+		    <div id="43" class="header closed" onclick="toggle('c43',this)">
+    <a href="frlrfEmvLibSmartTlvClassTopic_props--.html" target="vbdocright">Ιδιότητες</a>
+    </div>
+    <div id="c43" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClassTagListTopic.html" target="vbdocright">TagList Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClassTagTreeTopic.html" target="vbdocright">TagTree Property</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClasstlvdataTopic.html" target="vbdocright">tlvdata Property</a></div>
+  
+
+			</div>
+		
+
+
+		    <div id="44" class="header closed" onclick="toggle('c44',this)">
+    <a href="frlrfEmvLibSmartTlvClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c44" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClass_dumpTopic.html" target="vbdocright">_dump Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibSmartTlvClassdumpTopic.html" target="vbdocright">dump Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="45" class="header closed" onclick="toggle('c45',this)">
+    <a href="frlrfEmvLibStringToolsClassTopic.html" target="vbdocright">StringTools Class</a>
+    </div>
+    <div id="c45" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="46" class="header closed" onclick="toggle('c46',this)">
+    <a href="frlrfEmvLibStringToolsClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c46" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibStringToolsClassByteArrayToHexStringTopic.html" target="vbdocright">ByteArrayToHexString Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibStringToolsClassByteArrayToHexString2Topic.html" target="vbdocright">ByteArrayToHexString2 Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibStringToolsClassHexStringToByteArrayTopic.html" target="vbdocright">HexStringToByteArray Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibStringToolsClassHexStringToByteArrayLongTopic.html" target="vbdocright">HexStringToByteArrayLong Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibStringToolsClassstringToHexStringTopic.html" target="vbdocright">stringToHexString Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+				    <div id="47" class="header closed" onclick="toggle('c47',this)">
+    <a href="frlrfEmvLibTlvToolsClassTopic.html" target="vbdocright">TlvTools Class</a>
+    </div>
+    <div id="c47" class="item" style="display:none">
+		
+
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		    <div id="48" class="header closed" onclick="toggle('c48',this)">
+    <a href="frlrfEmvLibTlvToolsClassTopic_methods--.html" target="vbdocright">Μέθοδοι</a>
+    </div>
+    <div id="c48" class="item" style="display:none">
+		
+						  
+    <div class="leaf"><a href="frlrfEmvLibTlvToolsClassAflParserTopic.html" target="vbdocright">AflParser Method</a></div>
+  
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibTlvToolsClassparseTagLengthDataTopic.html" target="vbdocright">parseTagLengthData Method</a></div>
+  
+
+			</div>
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+		
+		
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+						  
+    <div class="leaf"><a href="frlrfEmvLibCertificateTypeClassTopic.html" target="vbdocright">CertificateType Enumeration</a></div>
+  
+
+		
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+		
+
+
+</div>
+
+
+ 
+
+  
+		</div>
+ 
+
+
+
+		
+		
+</body>
+</html>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+    <DocumentationFile>bin\Debug\netstandard2.0\SmartCardDriver.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PCSC" Version="4.0.0" />
+    <PackageReference Include="PCSC.Iso7816" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmvLib\EmvLib.csproj" />
+    <ProjectReference Include="..\IAltSecurity\InterfaceAltSecurity.csproj" />
+  </ItemGroup>
+
+</Project>

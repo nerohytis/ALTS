@@ -1,0 +1,140 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "740bb1e09e79d45577c6dabfae6f1cec0f5509cf"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SmartCardDriver/1.0.0": {
+        "dependencies": {
+          "EmvLib": "1.0.0",
+          "InterfaceAltSecurity": "1.0.0",
+          "NETStandard.Library": "2.0.3",
+          "PCSC": "4.0.0",
+          "PCSC.Iso7816": "4.0.0"
+        },
+        "runtime": {
+          "SmartCardDriver.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.1": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.15362.1"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NetEncryptionLibrary/4.0.0": {
+        "runtime": {
+          "lib/net46/KellermanSoftware.NET-Encryption-Library.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PCSC/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/PCSC.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "PCSC.Iso7816/4.0.0": {
+        "dependencies": {
+          "PCSC": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "EmvLib/1.0.0": {
+        "dependencies": {
+          "BouncyCastle": "1.8.1",
+          "NetEncryptionLibrary": "4.0.0",
+          "PCSC": "4.0.0",
+          "PCSC.Iso7816": "4.0.0"
+        },
+        "runtime": {
+          "EmvLib.dll": {}
+        }
+      },
+      "InterfaceAltSecurity/1.0.0": {
+        "runtime": {
+          "InterfaceAltSecurity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartCardDriver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nH+P67LavO5EcxjKdBxFfRdfdFhivS3Xp3+0br1KcpCI8DM6ksCWy6YYZjk7XFV+VsHGtkUovwIZ/vmCp42geA==",
+      "path": "bouncycastle/1.8.1",
+      "hashPath": "bouncycastle.1.8.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NetEncryptionLibrary/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WybQztM02fiNJKnV1IVOrJCORshFEmDWklXYoJ0+siPLOlwZrview6sXDGYZIH8T+FfyL0AI4FqYUVFiexAN/Q==",
+      "path": "netencryptionlibrary/4.0.0",
+      "hashPath": "netencryptionlibrary.4.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "PCSC/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iLHbcr6YYyqIR+/h0Itv6FG4omAp2PsaKoNsYQ1kN8zkoTHnieya6ZmRH7Kibkhicw2fCb5GZJVIBl7h//XCw==",
+      "path": "pcsc/4.0.0",
+      "hashPath": "pcsc.4.0.0.nupkg.sha512"
+    },
+    "PCSC.Iso7816/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RcvZUznCG8eVGVAZzh07AojWD+rMAYV4yZ9SbR4HJeYYWkmSdYkoPoAyBmE8JVcGvc29v+f6pdNr3PsjkuvRJw==",
+      "path": "pcsc.iso7816/4.0.0",
+      "hashPath": "pcsc.iso7816.4.0.0.nupkg.sha512"
+    },
+    "EmvLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfaceAltSecurity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

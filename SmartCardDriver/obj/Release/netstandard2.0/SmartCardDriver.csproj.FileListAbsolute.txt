@@ -1,0 +1,12 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Release\netstandard2.0\SmartCardDriver.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Release\netstandard2.0\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Release\netstandard2.0\SmartCardDriver.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Release\netstandard2.0\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Release\netstandard2.0\EmvLib.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.csprojResolveAssemblyReference.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.csproj.CopyComplete
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Release\netstandard2.0\SmartCardDriver.pdb

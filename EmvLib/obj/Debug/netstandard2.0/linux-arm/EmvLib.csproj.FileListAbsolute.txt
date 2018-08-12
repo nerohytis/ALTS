@@ -1,0 +1,10 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Debug\netstandard2.0\linux-arm\EmvLib.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Debug\netstandard2.0\linux-arm\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\bin\Debug\netstandard2.0\linux-arm\EmvLib.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.Properties.Resources.resources
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.csproj.GenerateResource.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\EmvLib\obj\Debug\netstandard2.0\linux-arm\EmvLib.pdb

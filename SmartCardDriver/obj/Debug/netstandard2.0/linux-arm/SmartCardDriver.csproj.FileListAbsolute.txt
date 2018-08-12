@@ -1,0 +1,11 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\linux-arm\SmartCardDriver.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\linux-arm\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\linux-arm\SmartCardDriver.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\linux-arm\EmvLib.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\linux-arm\EmvLib.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.csproj.CopyComplete
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\obj\Debug\netstandard2.0\linux-arm\SmartCardDriver.pdb

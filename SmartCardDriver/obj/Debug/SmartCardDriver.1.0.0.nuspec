@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SmartCardDriver</id>
+    <version>1.0.0</version>
+    <authors>SmartCardDriver</authors>
+    <owners>SmartCardDriver</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="EmvLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="PCSC" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="PCSC.Iso7816" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\noume\source\repos\AlreadyThereSecurity\SmartCardDriver\bin\Debug\netstandard2.0\SmartCardDriver.dll" target="lib\netstandard2.0\SmartCardDriver.dll" />
+  </files>
+</package>

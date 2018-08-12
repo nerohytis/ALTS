@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartCardDriver</name>
+    </assembly>
+    <members>
+        <member name="T:SmartCardDriver.SmartCardMonitor">
+            <summary>
+            Η κλάση IAltSecurity υλοποιεί το interface IAltSecurity
+            </summary>
+        </member>
+        <member name="F:SmartCardDriver.SmartCardMonitor._contextFactory">
+            <summary>
+            Smart card system Conext factory. OS bound.
+            </summary>
+        </member>
+        <member name="F:SmartCardDriver.SmartCardMonitor._isOk">
+            <summary>
+            Authenticated callback function memory space
+            </summary>
+        </member>
+        <member name="F:SmartCardDriver.SmartCardMonitor._isTrusted">
+            <summary>
+            Trusted callback function memory space
+            </summary>
+        </member>
+        <member name="F:SmartCardDriver.SmartCardMonitor.TrainMode">
+            <summary>
+            This flag is true while in training mode
+            </summary>
+        </member>
+        <member name="F:SmartCardDriver.SmartCardMonitor.TrustedDevice">
+            <summary>
+            Trusted device info
+            </summary>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.Connect(InterfaceAltSecurity.CallBacks.Authenticated)">
+            <summary>
+            Start comms with Client
+            </summary>
+            <param name="isOk">Callback to use when a card is read</param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.Disconnect">
+            <summary>
+            Stops all comms
+            </summary>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.ShowUserInfo(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Function to log 
+            </summary>
+            <param name="readerNames"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.AttachToAllEvents(PCSC.Monitoring.ISCardMonitor)">
+            <summary>
+            Monitor all events for smartcards. (CardInserted,CardRemoved,Initialized,StatusChanged,MonitorException)
+            </summary>
+            <param name="monitor">The ISCardMonitor monitor to bind to for events</param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.DisplayEvent(System.String,PCSC.Monitoring.CardStatusEventArgs)">
+            <summary>
+            Display info when an event occurs on a reader
+            </summary>
+            <param name="eventName"></param>
+            <param name="unknown"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.CardInserted(PCSC.Monitoring.CardStatusEventArgs)">
+            <summary>
+            <para>Card inserted event.</para>
+            <para>If TrainMode is off, starts reading a card and initiates the authentication with the card</para>
+            <para>If TrainMode is on, starts to perfom the pairing with the card</para>
+            </summary>
+            <param name="info">The info send by the event</param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.Authenticate(System.String)">
+            <summary>
+            Read the smart card and authenticate it using EMVCO rules
+            </summary>
+            <param name="readerName"></param>
+            <returns>AltsInfo Authenticated True or false</returns>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.StatusChanged(System.Object,PCSC.Monitoring.StatusChangeEventArgs)">
+            <summary>
+            StatusChanged, only logs to console
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.MonitorException(System.Object,PCSC.Exceptions.PCSCException)">
+            <summary>
+            Logs Exceptions to Console
+            </summary>
+            <param name="sender"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.GetReaderNames">
+            <summary>
+            Gets installed smart card reader names
+            </summary>
+            <returns>Array of reader names installed</returns>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.NoReaderFound(System.Collections.Generic.ICollection{System.String})">
+            <summary>
+            Check if reader is found
+            </summary>
+            <param name="readerNames"></param>
+            <returns>True if no readers are found</returns>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.isTrusted(InterfaceAltSecurity.AltsInfo)">
+            <summary>
+            Check AltsInfo if the card is trusted or not
+            </summary>
+            <param name="devToken"></param>
+            <returns>True for trusted smart card</returns>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.TrustDevice(InterfaceAltSecurity.CallBacks.Trusted)">
+            <summary>
+            Function to train the application to trust a specified card
+            </summary>
+            <param name="isTrusted"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.UnTrustDevice(InterfaceAltSecurity.AltsInfo)">
+            <summary>
+            Function to Untrust device. Nor yet implemented.
+            </summary>
+            <param name="devInfo"></param>
+        </member>
+        <member name="M:SmartCardDriver.SmartCardMonitor.HashData(System.String,System.Byte[])">
+            <summary>
+            Creates a hash value to store as the TrustedDevice token
+            </summary>
+            <param name="dataToHash"></param>
+            <param name="saltValue"></param>
+            <returns>Hash value of the cardnumber,expiry date and saltValue (ICC publicKey hash is used)</returns>
+        </member>
+    </members>
+</doc>

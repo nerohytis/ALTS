@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="AltsDemoGui" Title="AltsDemoGui Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000000.html" LinkGroup="AltsDemoGui">AltsDemoGui Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000017.html" LinkGroup="AltsDemoGui">AltsDemoGui Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.AltsStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000A.html" LinkGroup="AltsDemoGui">AltsStatus Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.Button_Click_Connect" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000004.html" LinkGroup="AltsDemoGui">Button_Click_Connect Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.Button_Click_DisConnect" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000005.html" LinkGroup="AltsDemoGui">Button_Click_DisConnect Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.Button_Click_Learn" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000006.html" LinkGroup="AltsDemoGui">Button_Click_Learn Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.Log" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000F.html" LinkGroup="AltsDemoGui">Log Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.LogText" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000C.html" LinkGroup="AltsDemoGui">LogText Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000001.html" LinkGroup="AltsDemoGui">MainWindow Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.MainWindow" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000003.html" LinkGroup="AltsDemoGui">MainWindow Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.NotifyPropertyChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000011.html" LinkGroup="AltsDemoGui">NotifyPropertyChanged Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.PropertyChanged" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000010.html" LinkGroup="AltsDemoGui">PropertyChanged Event</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.Status" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000012.html" LinkGroup="AltsDemoGui">Status Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel.StatusColor" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000B.html" LinkGroup="AltsDemoGui">StatusColor Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000009.html" LinkGroup="AltsDemoGui">ViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel._altsStatus" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000E.html" LinkGroup="AltsDemoGui">_altsStatus Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.ViewModel._msg" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_000000000000000D.html" LinkGroup="AltsDemoGui">_msg Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.okCallBack" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000007.html" LinkGroup="AltsDemoGui">okCallBack Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.scm" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000002.html" LinkGroup="AltsDemoGui">scm Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="AltsDemoGui.MainWindow.trustCallBack" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:AltsDemoGui.chm::/topic_0000000000000008.html" LinkGroup="AltsDemoGui">trustCallBack Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

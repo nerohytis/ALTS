@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="EmvLib" Title="EmvLib Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.AID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassAIDTopic.html" LinkGroup="EmvLib">AID Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsAIDClassTopic.html" LinkGroup="EmvLib">AID Structure</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID_LIST" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassAID_LISTTopic.html" LinkGroup="EmvLib">AID_LIST Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID_LIST_BYTES" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassAID_LIST_BYTESTopic.html" LinkGroup="EmvLib">AID_LIST_BYTES Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID.AID_MASTERCARD_CLASSIC" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsAIDClassAID_MASTERCARD_CLASSICTopic.html" LinkGroup="EmvLib">AID_MASTERCARD_CLASSIC Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID.AID_VISA_CLASSIC" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsAIDClassAID_VISA_CLASSICTopic.html" LinkGroup="EmvLib">AID_VISA_CLASSIC Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.AID.AID_VISA_ELECTRON" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsAIDClassAID_VISA_ELECTRONTopic.html" LinkGroup="EmvLib">AID_VISA_ELECTRON Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.APDU_RES_DESCRIPTION" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassAPDU_RES_DESCRIPTIONTopic.html" LinkGroup="EmvLib">APDU_RES_DESCRIPTION Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflResult.AflEntries" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflResultClassAflEntriesTopic.html" LinkGroup="EmvLib">AflEntries Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflEntry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflEntryClassTopic.html" LinkGroup="EmvLib">AflEntry Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.TlvTools.AflParser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibTlvToolsClassAflParserTopic.html" LinkGroup="EmvLib">AflParser Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflResult" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflResultClassTopic.html" LinkGroup="EmvLib">AflResult Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.ApplicationClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassApplicationClassTopic.html" LinkGroup="EmvLib">ApplicationClass Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.Applications" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassApplicationsTopic.html" LinkGroup="EmvLib">Applications Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.AuthType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassAuthTypeTopic.html" LinkGroup="EmvLib">AuthType Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.BasicAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassBasicAuthTopic.html" LinkGroup="EmvLib">BasicAuth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools.ByteArrayToHexString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassByteArrayToHexStringTopic.html" LinkGroup="EmvLib">ByteArrayToHexString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools.ByteArrayToHexString2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassByteArrayToHexString2Topic.html" LinkGroup="EmvLib">ByteArrayToHexString2 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.CAKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassCAKeyTopic.html" LinkGroup="EmvLib">CAKey Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassTopic.html" LinkGroup="EmvLib">CAKeyElement Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeys" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeysClassTopic.html" LinkGroup="EmvLib">CAKeys Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassTopic.html" LinkGroup="EmvLib">CaKey Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKeyStore" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyStoreClassTopic.html" LinkGroup="EmvLib">CaKeyStore Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeys.CaKeys" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeysClassCaKeysTopic.html" LinkGroup="EmvLib">CaKeys Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CardNotSupportedExceprion.CardNotSupportedExceprion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCardNotSupportedExceprionClassctorTopic_overloads--.html" LinkGroup="EmvLib">CardNotSupportedExceprion Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CardNotSupportedExceprion.CardNotSupportedExceprion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCardNotSupportedExceprionClassctorTopic4_overloads--.html" LinkGroup="EmvLib">CardNotSupportedExceprion Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CardNotSupportedExceprion.CardNotSupportedExceprion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCardNotSupportedExceprionClassctorTopic2_overloads--.html" LinkGroup="EmvLib">CardNotSupportedExceprion Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CardNotSupportedExceprion.CardNotSupportedExceprion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCardNotSupportedExceprionClassctorTopic3_overloads--.html" LinkGroup="EmvLib">CardNotSupportedExceprion Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CardNotSupportedExceprion" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCardNotSupportedExceprionClassTopic.html" LinkGroup="EmvLib">CardNotSupportedExceprion Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CertificateType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCertificateTypeClassTopic.html" LinkGroup="EmvLib">CertificateType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.Children" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassChildrenTopic.html" LinkGroup="EmvLib">Children Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.ConstructedDataObject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassConstructedDataObjectTopic.html" LinkGroup="EmvLib">ConstructedDataObject Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.ContextSpecificClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassContextSpecificClassTopic.html" LinkGroup="EmvLib">ContextSpecificClass Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.DataLen" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassDataLenTopic.html" LinkGroup="EmvLib">DataLen Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.DecryptRsa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassDecryptRsaTopic_overloads--.html" LinkGroup="EmvLib">DecryptRsa Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.DecryptRsa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassDecryptRsaTopic2_overloads--.html" LinkGroup="EmvLib">DecryptRsa Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.Description" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassDescriptionTopic.html" LinkGroup="EmvLib">Description Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassDisposeTopic.html" LinkGroup="EmvLib">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.Dump" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassDumpTopic.html" LinkGroup="EmvLib">Dump Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassTopic.html" LinkGroup="EmvLib">EmvConstants Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.EmvConstants" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassctorTopic.html" LinkGroup="EmvLib">EmvConstants Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLib.html" LinkGroup="EmvLib">EmvLib Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfemvlib_referenceCustomTopic.html" LinkGroup="EmvLib">EmvLib Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.EmvOfflineAuthType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsEmvOfflineAuthTypeClassTopic.html" LinkGroup="EmvLib">EmvOfflineAuthType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.EmvRecords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassEmvRecordsTopic.html" LinkGroup="EmvLib">EmvRecords Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflEntry.EndRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflEntryClassEndRecordTopic.html" LinkGroup="EmvLib">EndRecord Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.Expiry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassExpiryTopic.html" LinkGroup="EmvLib">Expiry Property {EmvLib.CAKeyElement}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.Expiry" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassExpiryTopic.html" LinkGroup="EmvLib">Expiry Property {EmvLib.CaKey}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.Exponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassExponentTopic.html" LinkGroup="EmvLib">Exponent Property {EmvLib.CAKeyElement}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.Exponent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassExponentTopic.html" LinkGroup="EmvLib">Exponent Property {EmvLib.CaKey}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.GetAIDs" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassGetAIDsTopic.html" LinkGroup="EmvLib">GetAIDs Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKeyStore.GetCaKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyStoreClassGetCaKeyTopic.html" LinkGroup="EmvLib">GetCaKey Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.GetOfflineTagValues" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassGetOfflineTagValuesTopic.html" LinkGroup="EmvLib">GetOfflineTagValues Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.GetProcessingOptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassGetProcessingOptionsTopic.html" LinkGroup="EmvLib">GetProcessingOptions Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.GetSha1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassGetSha1Topic.html" LinkGroup="EmvLib">GetSha1 Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.GetSingleApplication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassGetSingleApplicationTopic.html" LinkGroup="EmvLib">GetSingleApplication Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.GetTagValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassGetTagValueTopic.html" LinkGroup="EmvLib">GetTagValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.GpoTemplateFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsGpoTemplateFormatClassTopic.html" LinkGroup="EmvLib">GpoTemplateFormat Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.GpoTemplateFormat" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassGpoTemplateFormatTopic.html" LinkGroup="EmvLib">GpoTemplateFormat Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.HasChildren" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassHasChildrenTopic.html" LinkGroup="EmvLib">HasChildren Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.HasParent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassHasParentTopic.html" LinkGroup="EmvLib">HasParent Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools.HexStringToByteArray" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassHexStringToByteArrayTopic.html" LinkGroup="EmvLib">HexStringToByteArray Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools.HexStringToByteArrayLong" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassHexStringToByteArrayLongTopic.html" LinkGroup="EmvLib">HexStringToByteArrayLong Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassIndexTopic.html" LinkGroup="EmvLib">Index Property {EmvLib.CAKeyElement}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassIndexTopic.html" LinkGroup="EmvLib">Index Property {EmvLib.CaKey}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.IsConstructed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassIsConstructedTopic.html" LinkGroup="EmvLib">IsConstructed Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.IsOffline" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassIsOfflineTopic.html" LinkGroup="EmvLib">IsOffline Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.Key" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassKeyTopic.html" LinkGroup="EmvLib">Key Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassTopic.html" LinkGroup="EmvLib">OfflineAuth Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.OfflineAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassctorTopic.html" LinkGroup="EmvLib">OfflineAuth Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflEntry.OfflineRecords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflEntryClassOfflineRecordsTopic.html" LinkGroup="EmvLib">OfflineRecords Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.PPSE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassPPSETopic.html" LinkGroup="EmvLib">PPSE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.PSE" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassPSETopic.html" LinkGroup="EmvLib">PSE Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.Parent" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassParentTopic.html" LinkGroup="EmvLib">Parent Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.PdolTags" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassPdolTagsTopic.html" LinkGroup="EmvLib">PdolTags Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.PrimitiveDataObject" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassPrimitiveDataObjectTopic.html" LinkGroup="EmvLib">PrimitiveDataObject Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.PrivateClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassPrivateClassTopic.html" LinkGroup="EmvLib">PrivateClass Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.RES_GPO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassRES_GPOTopic.html" LinkGroup="EmvLib">RES_GPO Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.RES_READRECORD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassRES_READRECORDTopic.html" LinkGroup="EmvLib">RES_READRECORD Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.RES_SELECT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassRES_SELECTTopic.html" LinkGroup="EmvLib">RES_SELECT Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.RID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassRIDTopic.html" LinkGroup="EmvLib">RID Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.ReadPdolData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassReadPdolDataTopic.html" LinkGroup="EmvLib">ReadPdolData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.ReadRecords" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassReadRecordsTopic.html" LinkGroup="EmvLib">ReadRecords Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.Record" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassRecordTopic.html" LinkGroup="EmvLib">Record Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.ResponceType" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsResponceTypeClassTopic.html" LinkGroup="EmvLib">ResponceType Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.Rid" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassRidTopic.html" LinkGroup="EmvLib">Rid Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SCardReaderExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSCardReaderExtensionsClassTopic.html" LinkGroup="EmvLib">SCardReaderExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.SELECT_APDU_HEADER" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassSELECT_APDU_HEADERTopic.html" LinkGroup="EmvLib">SELECT_APDU_HEADER Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CAKeyElement.SHA1Hash" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCAKeyElementClassSHA1HashTopic.html" LinkGroup="EmvLib">SHA1Hash Property {EmvLib.CAKeyElement}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.CaKey.SHA1Hash" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibCaKeyClassSHA1HashTopic.html" LinkGroup="EmvLib">SHA1Hash Property {EmvLib.CaKey}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.SW_SELECT_OK" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassSW_SELECT_OKTopic.html" LinkGroup="EmvLib">SW_SELECT_OK Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.SeeSubsequentBytes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassSeeSubsequentBytesTopic.html" LinkGroup="EmvLib">SeeSubsequentBytes Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.SelectApplication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassSelectApplicationTopic.html" LinkGroup="EmvLib">SelectApplication Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.SetGpo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassSetGpoTopic.html" LinkGroup="EmvLib">SetGpo Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflEntry.Sfi" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflEntryClassSfiTopic.html" LinkGroup="EmvLib">Sfi Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.Sfi" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassSfiTopic.html" LinkGroup="EmvLib">Sfi Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassTopic.html" LinkGroup="EmvLib">SmartApplication Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.SmartApplication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassctorTopic.html" LinkGroup="EmvLib">SmartApplication Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.SmartCard" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassctorTopic3_overloads--.html" LinkGroup="EmvLib">SmartCard Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.SmartCard" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassctorTopic2_overloads--.html" LinkGroup="EmvLib">SmartCard Constructor</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.SmartCard" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassctorTopic_overloads--.html" LinkGroup="EmvLib">SmartCard Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassTopic.html" LinkGroup="EmvLib">SmartCard Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassTopic.html" LinkGroup="EmvLib">SmartEmvRecord Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.SmartEmvRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassctorTopic.html" LinkGroup="EmvLib">SmartEmvRecord Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassTopic.html" LinkGroup="EmvLib">SmartTag Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.SmartTag" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassctorTopic.html" LinkGroup="EmvLib">SmartTag Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClassTopic.html" LinkGroup="EmvLib">SmartTlv Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv.SmartTlv" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClassctorTopic.html" LinkGroup="EmvLib">SmartTlv Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.AflEntry.StartRecord" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibAflEntryClassStartRecordTopic.html" LinkGroup="EmvLib">StartRecord Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassTopic.html" LinkGroup="EmvLib">StringTools Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.TLV_GPO" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassTLV_GPOTopic.html" LinkGroup="EmvLib">TLV_GPO Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartEmvRecord.TLV_READRECORD" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartEmvRecordClassTLV_READRECORDTopic.html" LinkGroup="EmvLib">TLV_READRECORD Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication.TLV_SELECT" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClassTLV_SELECTTopic.html" LinkGroup="EmvLib">TLV_SELECT Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv.TagList" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClassTagListTopic.html" LinkGroup="EmvLib">TagList Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.TagStringName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassTagStringNameTopic.html" LinkGroup="EmvLib">TagStringName Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv.TagTree" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClassTagTreeTopic.html" LinkGroup="EmvLib">TagTree Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.TagValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassTagValueTopic.html" LinkGroup="EmvLib">TagValue Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.Tagname" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassTagnameTopic.html" LinkGroup="EmvLib">Tagname Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTag.TlvData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTagClassTlvDataTopic.html" LinkGroup="EmvLib">TlvData Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.TlvTools" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibTlvToolsClassTopic.html" LinkGroup="EmvLib">TlvTools Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SCardReaderExtensions.TransmitWithLog" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSCardReaderExtensionsClassTransmitWithLogTopic.html" LinkGroup="EmvLib">TransmitWithLog Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.UniversalClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassUniversalClassTopic.html" LinkGroup="EmvLib">UniversalClass Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication._GetTagValue" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClass_GetTagValueTopic.html" LinkGroup="EmvLib">_GetTagValue Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth._app" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClass_appTopic.html" LinkGroup="EmvLib">_app Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth._caKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClass_caKeyTopic.html" LinkGroup="EmvLib">_caKey Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard._context" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClass_contextTopic.html" LinkGroup="EmvLib">_context Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv._dump" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClass_dumpTopic.html" LinkGroup="EmvLib">_dump Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartApplication._reader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartApplicationClass_readerTopic.html" LinkGroup="EmvLib">_reader Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.doCdaAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassdoCdaAuthTopic.html" LinkGroup="EmvLib">doCdaAuth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.doDdaAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassdoDdaAuthTopic.html" LinkGroup="EmvLib">doDdaAuth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.doSdaAuth" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassdoSdaAuthTopic.html" LinkGroup="EmvLib">doSdaAuth Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv.dump" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClassdumpTopic.html" LinkGroup="EmvLib">dump Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.getTagDescription" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClassgetTagDescriptionTopic.html" LinkGroup="EmvLib">getTagDescription Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.TlvTools.parseTagLengthData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibTlvToolsClassparseTagLengthDataTopic.html" LinkGroup="EmvLib">parseTagLengthData Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartCard.reader" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartCardClassreaderTopic.html" LinkGroup="EmvLib">reader Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.StringTools.stringToHexString" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibStringToolsClassstringToHexStringTopic.html" LinkGroup="EmvLib">stringToHexString Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.EmvConstants.tags" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibEmvConstantsClasstagsTopic.html" LinkGroup="EmvLib">tags Field</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.SmartTlv.tlvdata" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibSmartTlvClasstlvdataTopic.html" LinkGroup="EmvLib">tlvdata Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="EmvLib.OfflineAuth.validateCertificate" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:EmvLib.chm::/frlrfEmvLibOfflineAuthClassvalidateCertificateTopic.html" LinkGroup="EmvLib">validateCertificate Method</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

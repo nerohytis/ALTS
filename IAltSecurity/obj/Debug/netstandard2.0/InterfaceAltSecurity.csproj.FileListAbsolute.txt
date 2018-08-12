@@ -1,0 +1,9 @@
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\bin\Debug\netstandard2.0\InterfaceAltSecurity.deps.json
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\bin\Debug\netstandard2.0\InterfaceAltSecurity.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\bin\Debug\netstandard2.0\InterfaceAltSecurity.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\obj\Debug\netstandard2.0\InterfaceAltSecurity.csproj.CoreCompileInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\obj\Debug\netstandard2.0\InterfaceAltSecurity.AssemblyInfoInputs.cache
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\obj\Debug\netstandard2.0\InterfaceAltSecurity.AssemblyInfo.cs
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\obj\Debug\netstandard2.0\InterfaceAltSecurity.dll
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\obj\Debug\netstandard2.0\InterfaceAltSecurity.pdb
+C:\Users\noume\source\repos\AlreadyThereSecurity\IAltSecurity\bin\Debug\netstandard2.0\InterfaceAltSecurity.xml

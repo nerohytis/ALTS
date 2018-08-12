@@ -1,0 +1,78 @@
+5F 2A,00 00 00 00 00,Transaction Currency Code,09 75
+5F 2A,A0 00 00 06 15,Transaction Currency Code,09 78
+5F 36,00 00 00 00 00,Transaction Currency Exponent,02
+71,00 00 00 00 00,Issuer Script Template 1,
+72,00 00 00 00 00,Issuer Script Template 2,
+81,00 00 00 00 00,Amount Authorised Binary,00 00 00 11
+81,A0 00 00 00 04,Profile ID,01
+83,00 00 00 00 00,Command Template,00 00 00 00
+86,00 00 00 00 00,Issuer Script Command,
+89,00 00 00 00 00,Authorisation Code,
+8A,00 00 00 00 00,Authorisation Response Code,30 30
+91,00 00 00 00 00,Issuer Authentication Data,00 00 00 00 00 00 00 00 30 30
+95,00 00 00 00 00,Terminal Verification Results TVR,00 00 00 00 00
+98,00 00 00 00 00,Transaction Certificate TC Hash Value,00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+99,00 00 00 00 00,Transaction Personal Identification Number PIN Data,00 11 22 33
+9A,00 00 00 00 00,Transaction Date,01 01 01
+9B,00 00 00 00 00,Transaction Status Information TSI,00 00
+9C,00 00 00 00 00,Transaction Type,00
+9F 01,00 00 00 00 00,Acquirer Identifier,11 22 33 44 55 66
+9F 02,00 00 00 00 00,Amount Authorised Numeric,00 00 00 00 10 00
+9F 03,00 00 00 00 00,Amount Other Numeric,00 00 00 00 00 00
+9F 04,00 00 00 00 00,Amount Other Binary,00 00 00 11
+9F 06,00 00 00 00 00,Application Identifier AID,A0 00 00 00 03
+9F 09,A0 00 00 00 03,Application Version Number,00 8C
+9F 09,A0 00 00 00 04,Application Version Number,00 01
+9F 09,A0 00 00 00 65,Application Version Number,00 00
+9F 15,00 00 00 00 00,Merchant Category Code,00 01
+9F 16,00 00 00 00 00,Merchant Identifier,00 11 22 33 44 55 66 77 88 99 00 11 22 33 44
+9F 18,00 00 00 00 00,Issuer Script Identifier,
+9F 1A,00 00 00 00 00,Terminal Country Code,01 00
+9F 1A,A0 00 00 02 28,Terminal Country Code,06 82
+9F 1A,A0 00 00 06 15,Terminal Country Code,04 58
+9F 1B,00 00 00 00 00,Terminal Floor Limit,00 11 22 33
+9F 1C,00 00 00 00 00,Terminal Identification,00 11 22 33 44 55 66 77
+9F 1D,00 00 00 00 00,Terminal Risk Management Data,00 01 02 03 04 05 06 07
+9F 1E,00 00 00 00 00,Interface Device IFD Serial Number,11 22 33 44 55 66 77 88
+9F 21,00 00 00 00 00,Transaction Time,12 04 33
+9F 22,00 00 00 00 00,Certification Authority Public Key Index,99
+9F 33,00 00 00 00 00,Terminal Capablities,E0 60 C0
+9F 34,00 00 00 00 00,Cardholder Verification Method CVM Results,00 01 02
+9F 35,00 00 00 00 00,Terminal Type,12
+9F 37,00 00 00 00 00,Unpredictable Number,01 02 03 04
+9F 39,00 00 00 00 00,Point-of-Service POS Entry Mode,91
+9F 3A,00 00 00 00 00,Amount Reference Currency,00 00 00 11
+9F 3C,00 00 00 00 00,Transaction Reference Currency,08 40
+9F 3D,00 00 00 00 00,Transaction Reference Currency Exponent,02
+9F 40,00 00 00 00 00,Additional Terminal Capabilities,00 00 00 00 00
+9F 41,00 00 00 00 00,Transaction Sequence Counter,00 00 11 01
+9F 45,00 00 00 00 00,Data Authentication Code,01 02
+9F 4C,00 00 00 00 00,ICC Dynamic Number,01 02 03 04 05 06 07 08
+9F 4E,00 00 00 00 00,Merchant Name and Location,42 65 6E 20 53 74 6F 72 65 2C 20 4D 69 6C 77 61 75 6B 65 65
+9F 5C,A0 00 00 00 04,DS Requested Operator ID,00 00 00 00 00 00 00 00
+9F 5F,A0 00 00 00 03,VH Transaction Code,55
+9F 66,A0 00 00 00 03,VSDC Terminal Transaction Qualifiers,C0 00 01 01
+9F 66,A0 00 00 02 28,SPAN Terminal Transaction Qualifiers,C0 00 00 00 00
+9F 66,A0 00 00 03 33,qCUPIC Terminal Transaction Qualifiers,E0 00 00 00
+9F 69,A0 00 00 00 04,Default UDOL PayPass,9F 6A 04
+9F 6A,A0 00 00 00 04,Unpredictable Number Numeric PayPass,01 02 03 04
+9F 7A,A0 00 00 00 03,VLP Terminal Support Indicator,00
+9F 7A,A0 00 00 00 65,VLP Terminal Support Indicator,00
+9F 7B,A0 00 00 00 03,VLP Terminal Transaction Limit,00 00 00 11 22 33
+9F 7B,A0 00 00 00 65,VLP Terminal Transaction Limit,00 00 00 11 22 33
+C7,A0 00 00 06 15,Terminal Transaction Processing Information,32 80 00 00 19
+DF 56,A0 00 00 00 03,Terminal Action Code TAC - default,00 00 00 00 00
+DF 56,A0 00 00 00 04,Terminal Action Code TAC - default,00 00 00 00 00
+DF 56,A0 00 00 00 65,Terminal Action Code TAC - default,00 00 00 00 00
+DF 57,00 00 00 00 00,Terminal Action Code TAC - denial,FF FF FF FF FF
+DF 57,A0 00 00 00 03,Terminal Action Code TAC - denial,FF FF FF FF FF
+DF 57,A0 00 00 00 04,Terminal Action Code TAC - denial,FF FF FF FF FF
+DF 57,A0 00 00 00 25,Terminal Action Code TAC - denial,00 00 00 00 00
+DF 57,A0 00 00 00 65,Terminal Action Code TAC - denial,00 00 00 00 00
+DF 58,A0 00 00 00 03,Terminal Action Code TAC - online,00 00 00 00 00
+DF 58,A0 00 00 00 04,Terminal Action Code TAC - online,FF FF FF FF FF
+DF 58,A0 00 00 00 65,Terminal Action Code TAC - online,FF FF FF FF FF
+DF 58,A0 00 00 00 25,Terminal Action Code TAC - online,FF FF FF FF FF
+DF 5D,00 00 00 00 00,Default DDOL,9F 37 04
+DF 5E,A0 00 00 00 03,Default TDOL,
+DF 5E,A0 00 00 00 04,Default TDOL,9F 02 06 5F 2A 02 9A 03 9C 01 95 05 9F 37 04
